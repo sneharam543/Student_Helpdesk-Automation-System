@@ -24,16 +24,17 @@ The system combines BPMN workflow orchestration, modular agents, an approval int
 ## Architecture
 BPMN Orchestrator → Classification Agent → Data Extraction → Approval App → Response Generator → Email Sender → Logging System
 
-## Importing the Solution (UiPath Users)
-A full solution export is included in the `/archive` folder of this repository.
-This file can be imported into UiPath Automation Cloud (Studio Web) to view and explore the workflows.
+## Importing the solution
+A full solution export (`StudentHelpdeskAutomation-1.0.0.zip`) is included in the root directory of this repository.  
+You can download it directly and import it into UiPath Automation Cloud (Studio Web) to explore the workflows.
 
-Steps:
-1. Open UiPath Automation Cloud
-2. Go to Studio Web
-3. Navigate to **Import / Solutions**
-4. Upload the provided `.zip` solution file
-5. The BPMN process, agents, and app components will be available inside the workspace
+### Steps to Import
+1. Download `StudentHelpdeskAutomation-1.0.0.zip` from this repository
+2. Open UiPath Automation Cloud
+3. Go to **Studio Web**
+4. Select **Import → Solutions**
+5. Upload the `.zip` file
+6. The BPMN process, agents, and app components will appear in the workspace
 
 ## Note:
 This is a cloud-native UiPath solution and requires a UiPath Automation Cloud tenant to import. 
